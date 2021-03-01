@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    width: auto;
+    height: 50rem;
+    background-image: url("fundo2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-middle {
+    width: 35%;
+    height: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 5rem;
+    color: #CB9286;
+    border-bottom: 5px solid #CB9286;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.75rem;
+    color: #CB9286;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.section1 {
+    background-color: #CB9286;
+    border: 3.4rem solid white;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    border-bottom: 4px solid white;
+    padding-bottom: 1rem;
+    margin: 5rem 35rem;
+}
+
+.offer {
+    display: inline-block;
+    width: 26%;
+    margin: 0 4rem;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.offer-img {
+    display: inline;
+    width: 384px;
+    height: 216px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.review {
+    display: inline-block;
+    width: 26%;
+    margin: 0 4rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.review-img {
+    display: inline;
+    width: 384px;
+    height: 216px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding: 4rem;
+    padding-top: 2rem;
+    background-color: #CB9286;
+    margin: 1rem 3.4rem;
+}
